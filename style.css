@@ -1,0 +1,36 @@
+#wrapper {
+	width: 280px;
+	margin: 100px auto;
+	padding: 20px;
+}
+td {
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	text-align: center;
+	border: solid 2px gray;
+	cursor: pointer;
+	font-size: 2em;
+	font-family: Verdana;
+	background-color: white;
+}
+
+td:hover {
+	background-color: gray;
+	color: white;
+}
+tr:first-child td:first-child:hover {
+	background-color: #fff;
+	cursor: default;
+}
+input {
+	width: 99%;
+	border: none;
+	height: 30px;
+	font-size: 1em;
+	outline: none;
+}
+#expression {
+	height: 20px;
+	font-size: 0.5em;
+}
